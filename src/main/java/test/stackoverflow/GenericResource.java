@@ -6,7 +6,7 @@
 package test.stackoverflow;
 
 import javax.enterprise.context.RequestScoped;
-import javax.mvc.Controller;
+//import javax.mvc.Controller;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
@@ -19,7 +19,7 @@ import javax.ws.rs.Path;
 @RequestScoped
 public class GenericResource {
     @GET
-    @Controller
+//    @Controller
     public String root() {
         return "hello.jsp";
     }
